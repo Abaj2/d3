@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#chart {
+    width: 800px;
+    height: 500px;
+}
+
+.dot {
+    fill: steelblue;
+    stroke: black;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    display: none;
+}
+
+.legend {
+    font-size: 12px;
+}
